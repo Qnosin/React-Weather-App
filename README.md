@@ -2,6 +2,6 @@
 React Weather app to find information about your area temperature!
 
 ## Created with :
-##jsx
-##React
-##Css
+#jsx
+#React
+#Css
