@@ -10,10 +10,6 @@ function App() {
   const [error,setError] = useState(false);
   const [errorMessage,setErrorMessage] = useState('');
   const [description,setDescription] = useState('');
-  const api = {
-    key : "af715e6e626af11bbcd67c4a56748b02",
-    name : "https://api.openweathermap.org/data/2.5/weather?q="
-  }
   const dateBuilder = (d) =>{
       
   }
@@ -28,7 +24,6 @@ function App() {
         setTemperature(Math.round(data.main.temp));
         setCityName(data.name);
         setCountryName(data.sys.country);
-        console.log(data);
         setDescription(data.weather[0].description);
         setSucces(true);
         setError(false);
